@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Golden Crumb Bakery — fresh bread, pastries, cakes and coffee baked daily." />
+  <title>Golden Crumb Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Golden Crumb Bakery home">
+        <span class="brand-mark">GC</span>
+        <span>
+          <strong>Golden Crumb</strong>
+          <small>BAKERY</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#menu">Menu</a>
+        <a href="#about">Our Story</a>
+        <a href="#visit">Visit</a>
+        <a class="nav-cta" href="#order">Order Online</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow one"></div>
+      <div class="hero-glow two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">BAKED FRESH EVERY MORNING</p>
+          <h1>Good days start with <em>something warm.</em></h1>
+          <p class="hero-text">
+            Handcrafted breads, buttery pastries, celebration cakes and seriously good coffee —
+            made fresh in our neighbourhood bakery every day.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#menu">Explore the Menu</a>
+            <a class="btn secondary" href="#visit">Find Us</a>
+          </div>
+          <div class="hero-note">
+            <span>✦</span>
+            <p><strong>Open 7 days</strong><br>Mon–Fri 6:30am–4pm · Sat–Sun 7am–3pm</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Fresh bakery products">
+          <div class="bread-card">
+            <div class="bread-emoji">🥐</div>
+            <span class="floating-label label-one">Fresh daily</span>
+            <span class="floating-label label-two">Made with butter ♥</span>
+          </div>
+          <div class="mini-card">
+            <span>Today’s favourite</span>
+            <strong>Almond Croissant</strong>
+            <small>$6.50</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Bakery highlights">
+      <div class="marquee-track">
+        <span>Sourdough</span><b>✦</b>
+        <span>Croissants</span><b>✦</b>
+        <span>Celebration Cakes</span><b>✦</b>
+        <span>Specialty Coffee</span><b>✦</b>
+        <span>Seasonal Pastries</span><b>✦</b>
+        <span>Sourdough</span><b>✦</b>
+        <span>Croissants</span><b>✦</b>
+        <span>Celebration Cakes</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">OUR FAVOURITES</p>
+            <h2>Fresh from the oven.</h2>
+          </div>
+          <p>Small batches, quality ingredients, and the kind of things that make you “accidentally” buy two.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-art croissant">🥐</div>
+            <div class="product-info">
+              <div><h3>Butter Croissant</h3><p>Flaky, golden and unapologetically buttery.</p></div>
+              <span>$5.50</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-art sourdough">🍞</div>
+            <div class="product-info">
+              <div><h3>House Sourdough</h3><p>Slow fermented with a crisp crust and soft centre.</p></div>
+              <span>$9.00</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-art cake">🍰</div>
+            <div class="product-info">
+              <div><h3>Vanilla Berry Cake</h3><p>Vanilla sponge, fresh berries and whipped cream.</p></div>
+              <span>$8.50</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-art roll">🍥</div>
+            <div class="product-info">
+              <div><h3>Cinnamon Roll</h3><p>Soft brioche, cinnamon sugar and vanilla glaze.</p></div>
+              <span>$6.00</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-art cookie">🍪</div>
+            <div class="product-info">
+              <div><h3>Chocolate Chunk Cookie</h3><p>Crisp edges, gooey centre, generous chocolate.</p></div>
+              <span>$4.50</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-art coffee">☕</div>
+            <div class="product-info">
+              <div><h3>House Coffee</h3><p>Rich, balanced espresso roasted locally.</p></div>
+              <span>from $4.50</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="center">
+          <a class="btn primary" href="#order">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section" id="about">
+      <div class="container story-grid">
+        <div class="story-art">
+          <div class="story-photo">
+            <span class="story-icon">🥖</span>
+          </div>
+          <div class="story-stamp">BAKED<br>WITH<br>CARE</div>
+        </div>
+
+        <div class="story-copy">
+          <p class="eyebrow">OUR STORY</p>
+          <h2>A little bakery with a lot of heart.</h2>
+          <p>
+            Golden Crumb began with one sourdough starter, a tiny oven and a simple idea:
+            everyday food should still feel special.
+          </p>
+          <p>
+            We bake in small batches using traditional techniques, locally sourced ingredients
+            where possible, and absolutely no shortcuts on the good stuff.
+          </p>
+          <div class="stats">
+            <div><strong>6am</strong><span>First bake</span></div>
+            <div><strong>7 days</strong><span>Open weekly</span></div>
+            <div><strong>100%</strong><span>Made here</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <p class="eyebrow center-text">KIND WORDS</p>
+        <h2 class="center-text">Locals seem to like us.</h2>
+        <div class="quote-grid">
+          <blockquote>
+            <div class="stars">★★★★★</div>
+            <p>“The croissants are dangerously good. Crispy, buttery and somehow still light. My Saturday morning ritual now.”</p>
+            <footer>— Sophie M.</footer>
+          </blockquote>
+          <blockquote>
+            <div class="stars">★★★★★</div>
+            <p>“Best sourdough in the area and the staff are always lovely. The cinnamon rolls never make it home intact.”</p>
+            <footer>— James R.</footer>
+          </blockquote>
+          <blockquote>
+            <div class="stars">★★★★★</div>
+            <p>“We ordered a birthday cake and it looked beautiful, tasted even better, and disappeared in about ten minutes.”</p>
+            <footer>— Priya K.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div class="container visit-grid">
+        <div>
+          <p class="eyebrow">COME SAY HELLO</p>
+          <h2>Your neighbourhood bakery.</h2>
+          <p class="visit-intro">Drop in for breakfast, grab something for later, or stay awhile with a coffee.</p>
+
+          <div class="visit-details">
+            <div>
+              <span class="detail-icon">⌖</span>
+              <div><strong>Address</strong><p>123 Baker Street<br>Sampletown, NSW 2000</p></div>
+            </div>
+            <div>
+              <span class="detail-icon">◷</span>
+              <div><strong>Hours</strong><p>Mon–Fri: 6:30am–4pm<br>Sat–Sun: 7am–3pm</p></div>
+            </div>
+            <div>
+              <span class="detail-icon">☎</span>
+              <div><strong>Contact</strong><p>(02) 1234 5678<br>hello@goldencrumb.com.au</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-card">
+          <div class="map-lines"></div>
+          <div class="map-pin">★</div>
+          <span>Golden Crumb Bakery</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="container order-card">
+        <div>
+          <p class="eyebrow">SKIP THE QUEUE</p>
+          <h2>Order ahead, pick up happy.</h2>
+          <p>Pre-order your favourites for easy pickup. Cakes and catering require at least 48 hours notice.</p>
+        </div>
+        <a class="btn dark" href="mailto:hello@goldencrumb.com.au?subject=Bakery%20Order">Start an Order</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="brand footer-brand">
+        <span class="brand-mark">GC</span>
+        <span><strong>Golden Crumb</strong><small>BAKERY</small></span>
+      </div>
+      <p>Fresh bread. Good coffee. Nice people.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Golden Crumb Bakery</span>
+      <span>Made with flour &amp; love.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
